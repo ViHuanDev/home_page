@@ -1,0 +1,143 @@
+.stylish-input-group .input-group-addon{
+	border-radius: 10px;
+	background-color: #b7b7b7;
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+	border-radius: 10px;
+	background-color: #b7b7b7;
+}
+.stylish-input-group .form-control:focus{
+	outline: none !important;
+	border-color: transparent;
+	box-shadow: none;
+}
+.stylish-input-group .form-control::-webkit-input-placeholder { /* Chrome */
+	color: white;
+}
+.stylish-input-group .form-control:-ms-input-placeholder { /* IE 10+ */
+	color: white;
+}
+.stylish-input-group .form-control::-moz-placeholder { /* Firefox 19+ */
+	color: white;
+}
+.stylish-input-group .form-control:-moz-placeholder { /* Firefox 4 - 18 */
+	color: white;
+}
+.stylish-input-group button{
+	border:0;
+	background:transparent;
+}
+.glyphicon-search{
+	color: white;
+}
+#imaginary_container button:focus{
+	outline: none;
+}
+#imaginary_container{
+	width: 20%;
+}
+.row-search{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.social-icon{
+	width: 36px;
+	background-color: #8c8c8c;
+	text-align: center;
+	margin-right: 15px; 
+	border-radius: 50%;
+	color: white;
+}
+.social-icon i{
+	line-height: 36px;
+}
+.row-logo{
+	display: flex;
+	justify-content: space-between;
+}
+/*.row-logo a{
+	margin-right: 800px;
+}*/
+.row-logo img{
+	max-width: 250px;
+}
+.navbar{
+	border: none !important;
+	box-shadow: none !important;
+}
+.navbar-default .container-fluid{
+	background-color:white;
+}
+.nav.navbar-nav.navbar-right{
+	font-weight: bold;
+}
+.home{
+	padding-bottom: 0px !important;
+}
+.active{
+	color: blue !important;
+}
+.menu{
+	color: black !important;
+}
+.hr-home{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 80px;
+	border: 2px solid black;
+}
+.footer-logo{
+	display: flex;
+	justify-content: center;
+}
+footer{
+	background-color: #252162;
+	color: white;
+}
+.footer-contact, .footer-menu{
+	text-align: center;
+}
+.footer-social-icon{
+	display: flex;
+	justify-content: center;
+}
+.f-social-icon{
+	width: 36px;
+	background-color: white;
+	text-align: center;
+	margin-right: 15px; 
+	border-radius: 50%;
+	color: #333366;
+}
+.f-social-icon i{
+	line-height: 36px;
+}
+.line{
+	border-right: 1px solid white;
+}
+.short-menu{
+	padding-left: 10px;
+	padding-right: 15px;
+	font-size: 20px;
+}
+.short-menu a{
+	color: white;
+	text-decoration: none;
+}
+.short-menu a:hover{
+	color: white;
+	text-decoration: none;
+}
+.footer-menu, .footer-logo, .footer-contact, .footer-social-icon{
+	margin-top: 40px;
+}
+.footer-copyright{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 12px;
+	margin-top: 10px;
+}
