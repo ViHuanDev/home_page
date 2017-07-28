@@ -141,3 +141,7 @@ footer{
 	font-size: 12px;
 	margin-top: 10px;
 }
+.banner-content{
+	background: url('../images/banner.png') no-repeat;
+	background-size: 100%;
+}
