@@ -142,6 +142,29 @@ footer{
 	margin-top: 10px;
 }
 .banner-content{
+	height: 100%;
+	/*width: 100%;*/
 	background: url('../images/banner.png') no-repeat;
 	background-size: 100%;
+}
+input.text-padding-input{
+	text-indent: 10px;
+}
+input.text-padding-input::-webkit-input-placeholder{
+	font-family: Calibri;
+	font-style: italic;
+	font-size: 18.9px;
+}
+.btn-submit-form{
+	border:0;
+	border-radius: 5px;
+	height: 4.5rem;
+	background: #0054a6;
+	font-size: 17px;
+	color: white;
+}
+.div-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
