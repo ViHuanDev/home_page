@@ -170,5 +170,7 @@ input.text-padding-input::-webkit-input-placeholder{
 }
 .div-partner{
 	background: #ebebeb;
-	height: 100px;
+}
+.div-bg-white{
+	background: white;
 }
