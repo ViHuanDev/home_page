@@ -168,3 +168,7 @@ input.text-padding-input::-webkit-input-placeholder{
 	justify-content: center;
 	align-items: center;
 }
+.div-partner{
+	background: #ebebeb;
+	height: 100px;
+}
