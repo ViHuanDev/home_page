@@ -4,62 +4,22 @@
 	<meta charset="utf-8">
 	<title>SỨC MUA VIỆT</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/custom.js"></script>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<style>
 		.clear{
 			clear: both;
 		}
 	</style>
-	<script>
-		$(document).ready(function(){
-			$('#b1').hide();
-			$('#b2').hide();
-			$('#b3').hide();
-			$('#b4').hide();
-			$('#data-company').hide();
-			$('#hoverb1').mouseover(function(){
-				$('#b1').show("slow");
-			});
-			$('#hoverb1').mouseleave(function(){
-				$('#b1').hide("slow");
-			});
-			$('#hoverb2').mouseover(function(){
-				$('#b2').show("slow");
-			});
-			$('#hoverb2').mouseleave(function(){
-				$('#b2').hide("slow");
-			});
-			$('#hoverb3').mouseover(function(){
-				$('#b3').show("slow");
-			});
-			$('#hoverb3').mouseleave(function(){
-				$('#b3').hide("slow");
-			});
-			$('#hoverb4').mouseover(function(){
-				$('#b4').show("slow");
-			});
-			$('#hoverb4').mouseleave(function(){
-				$('#b4').hide("slow");
-			});
-			$('#text-input').click(function(){
-				$('#data-company').show("slow");
-			});
-			$('#data-company').mouseleave(function(){
-				$('#data-company').hide("slow");
-			});
-		});
-	</script>
 </head>
 <body>
 	<header class="col-lg-12 col-md-12 col-xs-18 container-fluid">
 		<div class="container">
 			<span><b>HOTLINE: 190000</b></span>
-
 			<div class="row row-search">
 				<a href="" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				<a href="" class="social-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -145,7 +105,7 @@
 							<div class=" col-lg-12 col-md-12 col-xs-18 form-group">
 								<input id="text-input" class="form-control text-padding-input" style="border-radius: 0; height: 4.5rem;position: relative;" type="text" placeholder="Nhập tên công ty">
 								<div id="data-company" style="height: 200px; position: absolute;z-index: 999999 ;background: white;overflow-y: scroll;padding: 0" class="col-lg-11 col-md-11 col-xs-17">
-								<option class="px-5" value="1">Công ty 1</option>
+									<option class="px-5" value="1">Công ty 1</option>
 								</div>
 							</div>
 							<div class=" col-lg-12 col-md-12 col-xs-18 form-group">
