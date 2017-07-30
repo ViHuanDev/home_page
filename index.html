@@ -8,7 +8,6 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.4.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<style>
@@ -16,6 +15,45 @@
 			clear: both;
 		}
 	</style>
+	<script>
+		$(document).ready(function(){
+			$('#b1').hide();
+			$('#b2').hide();
+			$('#b3').hide();
+			$('#b4').hide();
+			$('#data-company').hide();
+			$('#hoverb1').mouseover(function(){
+				$('#b1').show("slow");
+			});
+			$('#hoverb1').mouseleave(function(){
+				$('#b1').hide("slow");
+			});
+			$('#hoverb2').mouseover(function(){
+				$('#b2').show("slow");
+			});
+			$('#hoverb2').mouseleave(function(){
+				$('#b2').hide("slow");
+			});
+			$('#hoverb3').mouseover(function(){
+				$('#b3').show("slow");
+			});
+			$('#hoverb3').mouseleave(function(){
+				$('#b3').hide("slow");
+			});
+			$('#hoverb4').mouseover(function(){
+				$('#b4').show("slow");
+			});
+			$('#hoverb4').mouseleave(function(){
+				$('#b4').hide("slow");
+			});
+			$('#text-input').click(function(){
+				$('#data-company').show("slow");
+			});
+			$('#data-company').mouseleave(function(){
+				$('#data-company').hide("slow");
+			});
+		});
+	</script>
 </head>
 <body>
 	<header class="col-lg-12 col-md-12 col-xs-18 container-fluid">
@@ -105,7 +143,10 @@
 							</div>
 							<div class="py-4 col-lg-12 col-md-12 col-xs-18 form-group"></div>
 							<div class=" col-lg-12 col-md-12 col-xs-18 form-group">
-								<input class="form-control text-padding-input" style="border-radius: 0; height: 4.5rem" type="text" placeholder="Nhập tên công ty">
+								<input id="text-input" class="form-control text-padding-input" style="border-radius: 0; height: 4.5rem;position: relative;" type="text" placeholder="Nhập tên công ty">
+								<div id="data-company" style="height: 200px; position: absolute;z-index: 999999 ;background: white;overflow-y: scroll;padding: 0" class="col-lg-11 col-md-11 col-xs-17">
+								<option class="px-5" value="1">Công ty 1</option>
+								</div>
 							</div>
 							<div class=" col-lg-12 col-md-12 col-xs-18 form-group">
 								<input class="form-control text-padding-input" style="border-radius: 0; height: 4.5rem" type="text" placeholder="Nhập tên công ty">
@@ -168,6 +209,84 @@
 			</div>
 		</div>
 	</section>
+	<section class="container-fluid" style="padding: 0; margin: 0">
+		<div class="col-lg-12 col-xs-18 col-md-12" style="background: url('/home_page/images/contant.png') no-repeat;background-size: 100%; padding: 0;">
+			<div class="col-lg-12 col-md-12 col-xs-18" style="background: rgba(235,235,235,0.1);">
+				<div class="py-4 col-lg-12 col-xs-18 col-md-12" style="background: rgba(41,37,100,0.6)">
+					<div class="col-lg-12 col-xs-18 col-md-12 text-center" style="text-align: center;">
+						<h1 class="text-center" style="color: white;font-weight: bold">CÁC BƯỚC ĐỂ MUA HÀNG</h1>
+					</div>
+					<div class="pb-5 div-flex col-lg-12 col-md-12 col-xs-18">
+						<div class="col-lg-1" style="border: 3px solid white"></div>
+					</div>
+				</div>
+				<div class="pt-5 col-lg-12 col-md-12 col-xs-18 div-flex">
+					<div class="col-lg-8 col-xs-8 col-md-12">
+						<div class="col-lg-12 col-xs-18 col-md-12 div-flex">
+							<div class="col-lg-3 col-md-2 col-xs-3">
+								<img width="100%" src="/home_page/images/b1.png" alt="">
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3">
+								<img  width="100%" src="/home_page/images/b2.png" alt="">
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-5">
+								<img width="100%"  src="/home_page/images/b3.png" alt="">
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3">
+								<img width="100%"  src="/home_page/images/b4.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-12 col-xs-18 col-md-12 div-flex">
+							<div class="col-lg-12 col-md-12 col-xs-18" style="border: 2px solid white;position: absolute;"></div>
+							<div class="col-lg-3 col-md-2 col-xs-3 div-flex">
+								<span class="px-5 py-3" style="border-radius: 100%;background: rgba(127,127,127,0.7) ;font-size: 40px; color: white">1</span>
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3 div-flex">
+								<span class="px-5 py-3" style="border-radius: 100%;background: rgba(127,127,127,0.7) ;font-size: 40px; color: white">2</span>
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-5 div-flex">
+								<span class="px-5 py-3" style="border-radius: 100%;background: rgba(127,127,127,0.7) ;font-size: 40px; color: white">3</span>
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3 div-flex">
+								<span class="px-5 py-3" style="border-radius: 100%;background: rgba(127,127,127,0.7) ;font-size: 40px; color: white">4</span>
+							</div>
+						</div>
+						<div class="pt-5 col-lg-12 col-xs-18 col-md-12 div-flex">
+							<div id="hoverb1" class="mx-4 col-lg-3 col-md-2 col-xs-3 div-flex background-step">
+								<p    class="pt-3" style="font-family: Calibri;font-size: 17px;">Kiểm tra sức mua</p>
+							</div>
+							<div  id="hoverb2"  class="mx-4 col-lg-3 col-md-2 col-xs-3 div-flex background-step">
+								<p  class="pt-3" style="font-family: Calibri;font-size: 17px;">Lựa chọn sản phẩm</p>
+							</div>
+							<div id="hoverb3" class="mx-4 col-lg-3 col-md-3 col-xs-5 div-flex background-step">
+								<p    class="pt-3" style="font-family: Calibri;font-size: 17px;">Nhận hàng</p>
+							</div>
+							<div  id="hoverb4"  class="mx-4 col-lg-3 col-md-2 col-xs-3 div-flex background-step">
+								<p   class="pt-3" style="font-family: Calibri;font-size: 17px;">Thanh toán</p>
+							</div>
+						</div>
+						<div class="py-4 col-lg-12 col-xs-18 col-md-12 div-flex">
+							<div class="col-lg-3 col-md-2 col-xs-3">
+								<p id="b1" class="arrow_box text-center">Mang theo chứng minh thư đến siêu thị </p>
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3 text-center">
+								<p id="b2" class="arrow_box">Ký hợp đồng, trả trước một phần và nhận hàng. </p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-5 text-center">
+								<p id="b3" class="arrow_box">Mang theo chứng minh thư đến siêu thị</p>
+							</div>
+							<div class="col-lg-3 col-md-2 col-xs-3 text-center">
+								<p id="b4" class="arrow_box">Ký hợp đồng, trả trước một phần và nhận hàng. </p>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+				<div class="py-5 my-5 col-lg-12 col-xs-18 col-md-12"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</section>
 	<section class="container-fluid">
 		<div class="row condition">
 			<h2 class="h2-condition">ĐIỀU KIỆN TRỞ THÀNH HỘI VIÊN</h2>
@@ -185,7 +304,6 @@
 			</div>
 		</div>
 	</section>
-
 	<footer class="container-fluid col-lg-12 col-md-12 col-xs-18">
 		<div class="row footer-logo">
 			<a href=""><img src="images/logo.png"></a>
